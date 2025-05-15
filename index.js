@@ -16,6 +16,10 @@ app.get('/login' , (req,res) => {
     res.send(`This is Login Server`)
 })
 
+app.get('/video' , (req , res) => {
+    res.send(`Sending response`)
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
