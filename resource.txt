@@ -1,2 +1,4 @@
 https://www.youtube.com/watch?v=7fjOw8ApZ1I 
 back project
+If you are git init and them you want to add .gitignore files and you want to remove git traker 
+from the files from type this command works on windows powerShell Remove-Item -Recurse -Force .git
